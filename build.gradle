@@ -1,0 +1,17 @@
+task build(type: Zip) {
+     from ('.'){
+
+ include "index.html"
+
+ include "bin/**"
+
+ include "assets/**"
+
+ include "css/**"
+
+ include "js/**"
+ }
+
+destinationDirectory = (file("trinitech-web"))
+ archiveBaseName = "website1"
+}
