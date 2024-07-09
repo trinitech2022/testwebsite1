@@ -1,0 +1,19 @@
+radvd:x:75:75:radvd user:/:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+chrony:x:992:989::/var/lib/chrony:/sbin/nologin
+setroubleshoot:x:991:988::/var/lib/setroubleshoot:/sbin/nologin
+sssd:x:990:987:User for sssd:/:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:989:984::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+student:x:1000:1000:trinitech student:/home/student:/bin/bash
+class38:x:1001:1001:class38 student:/home/class38:/bin/bash
+auser:x:1002:1002:App User:/home/auser:/sbin/auser
+saned:x:988:982:SANE scanner daemon user:/usr/share/sane:/sbin/nologin
+gluster:x:987:981:GlusterFS daemons:/run/gluster:/sbin/nologin
+[root@localhost testwebsite1]#
